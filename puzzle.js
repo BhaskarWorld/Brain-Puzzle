@@ -63,9 +63,7 @@ function shuffle() {
     alert(
       "Please upload an image first by drag/drop an image \nor\n click on the table to choose an image"
     );
-  } else {
-    alert("Solve the puzzle or reset the game!");
-  }
+  } 
 }
 
 function CheckandSwapItem() {
