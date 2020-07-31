@@ -59,10 +59,12 @@ function shuffle() {
     $("table input").prop("disabled", false);
     $("#shuffle").addClass("disabled");
     has_shuffled = true;
-  } else {
+  } else if (!file_uploaded) {
     alert(
       "Please upload an image first by drag/drop an image \nor\n click on the table to choose an image"
     );
+  } else {
+    alert("Solve the puzzle or reset the game!");
   }
 }
 
