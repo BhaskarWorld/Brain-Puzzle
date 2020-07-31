@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+
+  <title>Puzzle</title>
+</head>
+
+<body>
+  <div class="loader">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  <div class="main ">
+    <input type="file" class="d-none" accept="image/*" id="get_image" name="load_image" />
+    <div id="section1" class="justify-content-center d-flex p-5 mx-5">
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="">Row and Col</span>
+        </div>
+        <input id="in-row" placeholder="Enter number of rows" type="number" class="form-control" />
+        <input id="in-col" placeholder="Enter number of cols" type="number" class="form-control" />
+      </div>
+      <button id="row-col" class="btn btn-warning">Enter</button>
+    </div>
+    <div id="section2" class="d-flex justify-content-center mt-5 p-5">
+      <div>
+        <div class="container text-center">
+          <h1 id="score"></h1>
+        </div>
+        <div class="container my-3 py-3">
+          <table class="mb-5 mx-auto p-5"></table>
+          <div class="container justify-content-center d-flex align-items-center">
+            <button id="shuffle" class="px-5 mx-5 btn btn-lg btn-primary">
+              Shuffle
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+<script src="puzzle.js"></script>
+
+</html>
