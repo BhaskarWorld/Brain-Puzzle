@@ -10,11 +10,9 @@ You can visit this link to have an overview of my work here :arrow_right: (https
 
 
 ## Technologies Used
-- **HTML**
-- **CSS**
-- **Bootstrap**
-- **JavaScript**
-
+| HTML | CSS | JavaScript |  Bootstrap |
+|:----:|:---:|:---------:|:----------:|
+|<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" height="100px">|<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" height="100px">|<img src="https://opencode.us/wp-content/uploads/2013/10/javascript_logo.png" height="100px">|<img src="https://www.drupal.org/files/project-images/bootstrap-stack.png" height="100px">|
 
 ## How to Play?
 **_Step 1:_** Enter _Rows_ and _Columns_ to divide get a **_puzzle grid_** of row X col. <br />
